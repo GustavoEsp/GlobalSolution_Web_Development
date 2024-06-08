@@ -1,0 +1,308 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-image: url('../img/fundoMar.jpg'); 
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    background-position: center;
+}
+a{
+    margin: 0 2.5vw;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+nav{
+    padding: 1rem;
+    max-width: 95%;
+    border-radius: 15px;
+    background: rgba( 255, 255, 255, 0.05 );
+    z-index: 2;
+    display: flex; 
+    position: fixed; 
+    width: 100%;
+}
+#nomeEmpresa{
+    color: white; 
+    margin-right: 8vw;
+}
+.container{
+    padding: 1rem 2rem;
+}
+.card{
+    padding: 1rem 1rem 1rem 1rem;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    text-align: left;
+    max-width: 25rem;
+}
+
+.carrossel{
+    display: flex;
+    padding: 1vw 1vw 1vw 1vw;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    text-align: left;
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    
+
+    img{
+        width: 50vw;
+        aspect-ratio: 1.5/1;   
+        border-radius: 3%;
+        box-shadow: #28282d 2px 2px 5px;
+
+        
+    }
+    
+}
+
+.card h3 {
+    opacity: 60%;
+}
+
+.card p {
+    opacity: 50%;
+}
+.cardBox{
+    display: flex; 
+    justify-content: center; 
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+.secoes{
+    margin-top: 12rem; 
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem; 
+}
+.fundoPretoTransparente{
+    background: rgba(0, 0,0 , 0.36); 
+    border-radius: 15px;
+}
+#imagemCircuito{
+    margin: 2rem 0 2rem; 
+    border-radius: 25px;
+    opacity: 0.9; 
+    width: 50vw;
+}
+#telaInicial{
+    text-align: center;
+    margin-bottom: 15rem;
+    #titulo1{
+        padding-bottom: 10%;
+        font-size: 8vw; 
+        opacity: 70%;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+    #titulo2{
+        padding: 15% 0 0 0; 
+        font-size: 3vw; 
+        letter-spacing: 2px;
+    }
+}
+#secao2{
+
+    #titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7;
+    }
+    #titulo2{
+        font-size: 3vw; 
+        font-weight: bold; 
+        opacity: 0.7;
+    }
+}
+#secao3{
+    #titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao4{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao5{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao6{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao7{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao8{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+
+form{
+    input{
+        height: 3vh;
+    }
+    input, textarea{
+        padding: 5px 5px 5px 5px;
+        font-weight: bold;
+        color: black;
+        border-radius: 10px;
+        box-shadow: #28282d 0px 0px 5px;
+    }
+    #nome, #sobrenome{
+        width: 12vw;
+    }
+}
+.text-inputs{
+    aspect-ratio: 2/1;
+    border: solid #6b6b6b 1px;
+    color: black;
+}
+
+#left {
+    padding: 10px;
+    border: solid black;
+    border-width: 3px 0 0 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    background: none;
+    height: 10px;
+    margin-top: 25%;
+  }
+
+#left:hover{
+    cursor: pointer;
+    border: solid skyblue;
+    border-width: 3px 0 0 3px;
+    
+}
+
+#right {
+  padding: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  background: none;
+  height: 10px;
+  margin-top: 25%;
+}
+
+#right:hover {
+    cursor: pointer;
+    border: solid skyblue;
+    border-width: 0 3px 3px 0;
+}
+
+#buttonForm {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #buttonForm::after,
+  #buttonForm::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  #buttonForm::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+  }
+  
+  #buttonForm::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  #buttonForm:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  #buttonForm:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  #buttonForm:active::after {
+    transition: 0s;
+  }
