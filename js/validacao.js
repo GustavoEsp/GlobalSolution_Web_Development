@@ -32,6 +32,6 @@ function mudarCarrosel(trigger){
         }
     }
 
-    document.getElementById("imgCarrosel").src = `/img/carrousel${contadorImagem}.webp`
+    document.getElementById("imgCarrosel").src = `./img/carrousel${contadorImagem}.webp`
 
 }
